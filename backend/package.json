@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "examen-backend",
+  "main": "server.mjs",
+  "scripts": {
+    "dev": "nodemon server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardnegoita1337/ExamenTW_2022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardnegoita1337/ExamenTW_2022/issues"
+  },
+  "homepage": "https://github.com/eduardnegoita1337/ExamenTW_2022#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "sequelize": "^6.15.1",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "proxy":"http://localhost:8080"
+}
